@@ -1,49 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Menú HOLA</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            padding: 40px;
-            text-align: center;
-        }
-        h1 {
-            color: #ff5733;
-        }
-        nav {
-            margin-top: 30px;
-        }
-        a {
-            display: inline-block;
-            margin: 10px 15px;
-            padding: 12px 25px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-        a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
 </head>
-<body>
 
-    <h1>Bienvenido al Menú Principal</h1>
-    <h3>Estudiante: Royner Morales Corrales</h3>
-    
+<body style="background:url(main.png);"> <!-- El body contiene una imagen de fonto -->
 
-    <nav>
-        <a href="pagina1.html">Página 1</a>
-        <a href="pagina2.html">Página 2</a>
-        <a href="pagina3.html">Página 3</a>
-        
-    </nav>
+    <div style="padding-left: 20%; padding-right:20%" align="center">
+        <h1 style="margin-top: 30px; color:#121238; font-size:400%; padding-top:10%">Menú Principal</h1>
+
+
+
+        <div style="background-color:#007BA7; border-radius: 15px; padding:1%"> 
+            <strong>
+                <p style="color: #ffff;"> <!-- Esto es un párrafo introductorio para dar la bienvenida al público -->
+                    Este sitio web nace con el propósito de invitar a la reflexión de distintos temas que enfrentamos en nuestra sociedad. Actualmente nos vemos expuestos a una cantidad enorme de problemas y lo más lamentable es que se han vuelto tan comunes que incluso invisibles a nuestros ojos. Problemas como la indigencia, la contaminación, el sufrimiento animal, el trabajo infantil y las dificultades de la vida, son muy reales y nos afectan a todos, por lo que queremos proveer un poco más de información para que las personas puedan indagar un poco más en otras realidades y proporcionar su testomonio si asi lo desean.
+                    <br>
+                    <br>
+                    Te invitamos a seleccionar uno de los temas para explorar más a fondo cada realidad.
+                </p>
+            </strong>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <table> <!-- Se elaboraron 5 botones para elegir entre los 5 temas-->
+            <tr>
+                <td><a href="tema1.html"><input type="submit" value="Tema 1"
+                            style="border-color:#007BA7;color:#007BA7; border-radius: 5px; width:150px; height:45px; font-size:medium"></a> <!-- Se probaron diferentes estilos para darle forma a los botones-->
+                </td>
+                <td>
+                <td><a href="tema2.html"><input type="submit" value="Tema 2"
+                            style="border-color:#007BA7;color:#007BA7; border-radius: 5px; width:150px; height:45px; font-size:medium"></a>
+                </td>
+                </td>
+                <td>
+                <td><a href="tema3.html"><input type="submit" value="Tema 3"
+                            style="border-color:#007BA7;color:#007BA7; border-radius: 5px; width:150px; height:45px; font-size:medium"></a>
+                </td>
+                </td>
+                <td>
+                <td><a href="tema4.html"><input type="submit" value="Tema 4"
+                            style="border-color:#007BA7;color:#007BA7; border-radius: 5px; width:150px; height:45px; font-size:medium"></a>
+                </td>
+                </td>
+                <td>
+                <td><a href="tema5.html"><input type="submit" value="Tema 5"
+                            style="border-color:#007BA7;color:#007BA7; border-radius: 5px; width:150px; height:45px; font-size:medium"></a>
+                </td>
+                </td>
+            </tr>
+        </table>
+
+    </div>
 
 </body>
+
 </html>
